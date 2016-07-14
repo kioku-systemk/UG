@@ -9,3 +9,5 @@ set(ZLIB_INCLUDE_DIR third_party/zlib/include)
 
 set(LWS_WITH_SSL OFF CACHE BOOL description FORCE)
 add_subdirectory(third_party/libwebsockets)
+
+add_subdirectory(third_party/glfw)
